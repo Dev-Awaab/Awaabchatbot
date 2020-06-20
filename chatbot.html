@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Box</title>
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>  
+
+           <div class="img">
+             <img src="img/download.jpg" alt="">
+           </div>
+             <div class="co">
+                  <h1> Welcome To HNGHI7 CHAT BOT</h1>
+                    <P> Are You Feeling Board You Can Chat With Me</P>
+                       <img src="img/images.png" alt="">
+                         <p>NOTE:Use The Enter Key After Typing</p>
+             </div>
+                     
+      <button class="open-button" onclick="openForm()" style='font-size:24px'> Chat</i></button>
+      <div class="form-popup fadeout" id="myForm">
+         <div class="form-container">
+            <h1>CHAT BOT</h1>
+                <div id="main">
+                  <div class="ch"> BOT: <span id="chatbot"></span></div>
+                  <div class="u">USER: <span id="user"></span></div>
+                  <div><input id="input" type="text" placeholder="user say anything..." autocomplete="off"/></div>
+            </div>
+          </div>
+
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </div>
+      </div>
+    <script src="chatbot.js"></script>
+
+      </script>
+</body>
+</html>
